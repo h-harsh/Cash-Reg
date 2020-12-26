@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&display=swap');
+body{
+  max-width: 650px;
+  max-width: 100%;
+  text-align: center;
+  background: linear-gradient(110.73deg, #009FFF 10.61%, rgba(47, 236, 145, 0.58) 93.57%);
+  font-family: 'Oswald', sans-serif;
+}
+.table{
+  max-width: 650px;
+  max-width: 100%;
+  margin: auto;
+}
+td{
+  border: 0.2rem solid black;
+  padding: 1rem
+}
+.section{
+  padding: 1rem;
+  max-width: 50%; 
+  margin: auto;
+  background-color: transparent;
+  border: 0.2rem solid #abe5e9;
+  border-radius: 1rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem 0.5rem #C0C0C0;
+  margin-bottom: 3rem;
+  
+}
+.header{
+  border-bottom: 0.2rem solid silver;
+  font-size: 1rem;
+  font-family: 'Audiowide', cursive;
+  color: rgb(100, 31, 41);
+}
+.btn{
+padding: 1rem;
+font-size: 0.8rem;
+border-bottom-left-radius: 1rem;
+cursor: pointer;
+}
+.element{
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+}
+.input{
+background-color: transparent;
+padding: 0.7rem;
+font-size: 1rem;
+}
+p{
+  font-size: 1.2rem;
+}

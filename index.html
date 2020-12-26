@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://kit.fontawesome.com/04af4ac42f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header class="header">
+		<h1>Cash Register</h1>
+	</header>
+	<section >
+		<p>You can enter the total billed amount and the amount paid by you to cashier, The program will return the amount that has to be returned to you with minimum number of notes</p>
+    <div>
+		<h3 class="element"> Total billed amount</h3>
+		<input class="input element" id="bill-amount" type="number">
+    <h3 class="element">Cash given</h3>
+    <input class="input element" id="cash-collected" type="number">
+    </div>
+    <button class="btn element" class id="calculate-btn">Calculate</button>
+    
+    <h2 class="element" id="final-output">   </h2>
+    
+    <button class=" btn element" id="reset-button">Reset</button>
+    </section>
+    <section class="section">   
+        <table class="table">
+            <tr>
+                <td><i class="fas fa-rupee-sign"></i> Currency </td>
+                <td ><i class="fas fa-wallet"></i> No of Notes</td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td class="table-data"> </td>
+            </tr>
+            <tr>
+                <td>500</td>
+                <td class="table-data"> </td>
+            </tr>
+            <tr>
+                <td>100</td>
+                <td class="table-data"> </td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td class="table-data"> </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td class="table-data"> </td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="table-data"> </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="table-data"> </td>
+            </tr>  
+        </table>
+    </section>
+    <footer>
+      <a href="https://www.harshporwal.com"> <h3>@harshporwal.com</h3></a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
